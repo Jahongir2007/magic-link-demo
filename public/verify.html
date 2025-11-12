@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Verified ✅</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 100px; }
+  </style>
+</head>
+<body>
+  <h2>🎉 Login successful!</h2>
+  <p>Welcome back, <span id="user"></span></p>
+
+  <script>
+    const email = new URLSearchParams(window.location.search).get('email');
+    document.getElementById('user').textContent = email;
+  </script>
+</body>
+</html>
