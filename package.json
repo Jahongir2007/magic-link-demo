@@ -1,0 +1,15 @@
+{
+  "name": "magiclink-demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.8",
+    "ioredis": "^5.4.1",
+    "auth-verify": "^1.8.0"
+  }
+}
