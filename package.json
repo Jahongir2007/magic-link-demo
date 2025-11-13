@@ -10,6 +10,6 @@
     "jsonwebtoken": "^9.0.2",
     "nodemailer": "^6.9.8",
     "ioredis": "^5.4.1",
-    "auth-verify": "^1.8.0"
+    "auth-verify": "^1.9.0"
   }
 }
